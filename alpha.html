@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>서희 table</title>
+  <meta charset="utf-8">
+ </head>
+ <body>
+
+<table border="1" style="text-align: center;>
+
+  <colgroup>
+    <col width="100" >
+    <col width="150" >
+    <col width="100" >
+    <col width="100" >
+    <col width="100" >
+  </colgroup>
+
+  <thead>
+    <tr>
+      <th rowspan="2">부서명</th>
+      <th COLSPAN="3">팀명</th>
+    </tr>
+      <th>기획</th>
+      <th>WEB</th>
+      <th>CS</th>
+  </thead>
+
+<tbody>
+    <tr>
+      <td rowspan="7">감정평가정보센터</td>
+    </tr>
+    <tr>
+      <td>김옥진</td>
+      <td>송병직</td>
+      <td>남상일</td>
+    </tr>
+    <tr>
+      <td>정경석</td>
+      <td>최준호</td>
+      <td>강태욱</td>
+    </tr>
+    <tr>
+      <td>남권우</td>
+      <td>방유정</td>
+      <td>류세현</td>
+    </tr>
+    <tr>
+      <td>박서희</td>
+      <td>유형덕</td>
+      <td>안병희</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>최혁재</td>
+      <td>최재연</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td>이현아</td>
+    </tr>
+
+
+  </tbody>
+
+</table>
+질문 : 왜 감정평가정보센터 rowspan이 7이어야 하는지
+<br>table head 부분 colgroup도 맨 첫번째 거가 적용 안돼서 실제 열 개수보다 1개 더 많음(4개로 하니까 맨 첫번째거 제외하고 적용됨)
+</body>

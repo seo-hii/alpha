@@ -1,0 +1,22 @@
+<html>
+<body style="text-align:center;">
+<img src="https://member.kapanet.or.kr/img/kapa_logo_new.png" width="200">
+  
+  <p style="margin-top:25px">
+   <form action="/action_page.php">
+    <input type="text" id="ID" name="ID" placeholder="아이디"><br><br>
+    <input type="password" id="password" name="password" placeholder="비밀번호"><br><br>
+    <input type="checkbox" id="idsave" name="idsave">
+    <label for="idsave">ID저장</label>
+    <input type="checkbox" id="pwsave" name="pwsave">
+    <label for="pwsave">PW저장</label><br><br>
+    <input type="submit" value="               로그인               ">
+   </form>
+  </p>
+  <a href="https://member.kapanet.or.kr/cgi-bin/appusers/">비밀번호 찾기</a> | <a href="https://member.kapanet.or.kr/cgi-bin/appusers/">ID신규발급</a><br>
+  <hr width="240">
+  <p>
+  본 사이트는 한국감정평가사협회에 소속된 회원사를 지원하는 회원전용사이트로서 감정평가업을 영위하지 않는 기업 및 일반인들께서는 이용하실 수 없습니다.
+  </p>
+</body>
+</html>
